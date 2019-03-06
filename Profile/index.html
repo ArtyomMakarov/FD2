@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <script type="text/javascript" src="profile.js"></script>
+</head>
+<body>
+    <form method="post" action="">
+        <b>Ваша фамилия:</b><br>
+        <input type="text" id="lastname"><br>
+
+        <b>Ваше имя:</b><br>
+        <input type="text" id="firstname"><br>
+
+        <b>Ваше отчество:</b><br>
+        <input type="text" id="secondname"><br>
+
+        <b>Ваш возраст:</b><br>
+        <input type="number" id="age"><br>
+
+        <b>Ваш пол:</b><br>
+        <input type="radio" id="male" name="gender" value="мужской" checked>мужской<br>
+        <input type="radio" id="female" name="gender" value="женский">женский<br>
+
+        <input type="button" value="Отправить" onclick="getProfile()" >
+    </form>
+
+    <div>
+        <p id="demo"></p>
+    </div>
+</body>
+</html>
