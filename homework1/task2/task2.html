@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="task2.js"></script>
+</head>
+<body>
+    <form method="post" action="">
+        Введите строку:
+        <p><input type="text" id="string"></p>
+        <p>Выберите параметр вывода:</p>
+        <p><input type="radio" name="result" id="console" value="console" checked> Console</p>
+        <p><input type="radio" name="result" id="alert" value="alert"> Alert</p>
+        <p><input type="radio" name="result" id="DOM" value="DOM"> DOM</p>
+        <input type="button" value="Посчитать" onclick="countLetters()">
+    </form>
+    <div>
+        <p id="demo"></p>
+    </div>
+</body>
+</html>
